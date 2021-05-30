@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ol, ul{
+	list-style-type: none;
+}
+
+#sus{
+	display: flex;
+	height: 600px;
+}
+
+#sus-stanga{
+	flex-grow: 1;
+	position: relative;
+}
+
+#sus-dreapta{
+	width: 300px;
+}
+
+#sus-stanga{
+	background: url("https://besmax.ro/wp-content/uploads/2019/02/concierge-medical-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#texte{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px;
+	background-color: rgba(188, 235, 200, 0.8);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+}
+
+#texte div{
+	margin-right: 40px;
+}
+
+#sus-dreapta img{
+	height: 95px;
+}
+
+#sus-dreapta ol{
+	background-color: green;
+	height: 500px;
+}
+
+#sus-dreapta li{
+	padding: 20px;
+}
+
+.obs{
+	
+	background-color: #fff;
+}
+
+#sus-dreapta .obs a{
+	color: #000;
+}
+
+#sus-dreapta ol a{
+	color: #fff;
+
+}
+
+#jos{
+	padding: 20px;
+	text-align: justify;
+	display: f;
+}
+
+#jos  {
+	display: flex;
+}
+
+
+#jos p{
+	padding-right: 20px;
+}
+
+#jos img{
+	width: 400px;
+	border: 2px solid #ddd;
+}
